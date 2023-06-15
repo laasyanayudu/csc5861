@@ -22,7 +22,7 @@ for i in range(2):
   link.addInterface(iface)
   
   if i == 0:
-    #node.addService(rspec.Execute(shell="sh", command="sudo bash /local/repository/setup_control.sh"))
+    node.addService(rspec.Execute(shell="sh", command="sudo bash /local/repository/setup_control.sh"))
     
 # Print the RSpec to the enclosing page.
 portal.context.printRequestRSpec()
