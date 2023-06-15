@@ -21,7 +21,7 @@ for i in range(2):
   iface.addAddress(rspec.IPv4Address(prefixForIP + str(i + 1), "255.255.255.0"))
   link.addInterface(iface)
   
-  #if i == 0:
+  if i == 0:
     #node.addService(rspec.Execute(shell="sh", command="sudo bash /local/repository/setup_control.sh"))
     
 # Print the RSpec to the enclosing page.
